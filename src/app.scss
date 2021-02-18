@@ -1,8 +1,39 @@
+@import "variables";
+
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-.jumbotron{
-  height: 500px;
+.jumbotron {
+  height: 900px;
+  background-image: url($img-bg);
+  background-size: cover;
+
+  &-left>img{
+    float:left;
+    margin-top: 15px;
+  }
+
+  &-right{
+    float: right;
+    display: inline-block;
+    margin-top: 15PX;
+
+    &>li{
+      list-style: none;
+      display: inline;
+      padding: 10px;
+    }
+
+    &>li>a{
+      text-decoration: none;
+    }
+
+
+  }
+
+
 }

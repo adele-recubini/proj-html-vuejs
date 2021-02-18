@@ -13,7 +13,20 @@
     <div id="app">
 
       <div class="jumbotron">
-        <img :src="bgImg">
+
+        <div class="jumbotron-left">
+          <img :src="logo">
+        </div>
+
+        <ul class="jumbotron-right">
+          <li v-for="link in linkHeader">
+            <a href="#">
+               {{link}}
+            </a>
+          </li>
+          <li><button type="button" name="button">MAKE APPOINTMENT</button></li>
+        </ul>
+
 
       </div>
 
