@@ -117,8 +117,20 @@
   justify-content: space-around;
   height: 500px;
 }
-.footer-item {
+.footer .item {
   width: 30%;
   border: 1px solid red;
   line-height: 25PX;
+}
+.footer .item-special {
+  width: 30%;
+}
+.footer .item > ul > li {
+  display: inline;
+  padding: 10px;
+}
+.footer .item > ul > li > i {
+  font-size: 40px;
+  padding: 10px;
+  color: blue;
 }

@@ -153,10 +153,23 @@
   @include flex;
   height: 500px;
 
-  &-item{
+  .item{
     width: 30%;
     border: 1px solid red;
     line-height: 25PX;
+  }
+  .item-special{
+    width: 30%;
+  }
+  .item>ul>li{
+    display: inline;
+    padding: 10px;
+  }
+  .item>ul>li>i{
+    font-size: 40px;
+    padding: 10px;
+    color: blue;
+
   }
 }
 

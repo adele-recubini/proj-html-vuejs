@@ -10,6 +10,8 @@ var app = new Vue({
          name: "twitter-square",
          group: "fab",
          prefix: "fa-",
+         
+
        },
        {
          name: "youtube",

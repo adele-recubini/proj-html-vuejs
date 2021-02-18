@@ -125,7 +125,7 @@
 
 
       <div class="footer">
-        <div class="footer-item">
+        <div class="item">
           <img :src="logoLight" alt=""><br>
           <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
           <hr>
@@ -134,15 +134,21 @@
             <li><i v-for="icon in iconSocial" :class="icon.group + ' ' + icon.prefix + icon.name"></i>
             </li>
           </ul>
-
-
-
-
         </div>
-        <div class="footer-item">
-
+        <div class="item">
+          <h4>CONTACT INFORMATION</h4>
         </div>
-        <div class="footer-item">
+
+        <div class="item-special">
+          <h4>MEDICAL DEPARTMENTS</h4>
+          <ul>
+            <li v-for="element in medicalDepartment">
+              <i class="fa fa-circle-thin" aria-hidden="true"></i><a href="#">
+                {{element}}
+              </a>
+
+            </li>
+          </ul>
 
         </div>
 
