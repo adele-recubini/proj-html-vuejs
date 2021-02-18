@@ -35,6 +35,9 @@
   text-decoration: none;
   color: #ffff;
 }
+.jumbotron .nav-right > li > a:hover {
+  color: blue;
+}
 .jumbotron .nav-right > li > span {
   color: #ffff;
 }

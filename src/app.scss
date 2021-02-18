@@ -53,6 +53,9 @@
       text-decoration: none;
       color:$word;
     }
+    &>li>a:hover{
+    color:blue;
+    }
 
     &>li>span{
       color:$word;
