@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 70px;
+  background-color: black;
+  margin: 0 auto;
+}
+.header-link {
+  text-align: center;
+  line-height: 70px;
+}
+.header-link > li {
+  padding: 0 30px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+}
+.header-link > li > a {
+  color: white;
+  text-decoration: none;
+}
+.header-link > li > h2 {
+  color: white;
+}
+
+.jumbotron {
+  height: 500px;
+  background-image: url("../img/girl.jpg");
+  background-size: cover;
+}
+.jumbotron:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.jumbotron .first {
+  float: left;
+  float: left;
+  width: 33%;
+  height: 500px;
+}
+.jumbotron .second {
+  float: left;
+  float: left;
+  width: 33%;
+  height: 500px;
+  text-align: center;
+  padding-top: 70px;
+}
+.jumbotron .second > h2 {
+  color: grey;
+  padding: 10px 0;
+}
+.jumbotron .second > h2 > span {
+  color: pink;
+  font-style: oblique;
+  font-size: 30px;
+}
+.jumbotron .second > ul {
+  color: grey;
+  list-style-type: none;
+  font-size: 20px;
+  padding: 5px 0;
+}
+.jumbotron .second > ul > li {
+  padding: 5px 0;
+}
+.jumbotron .second > h3 {
+  color: grey;
+  padding: 10px 10px;
+}
+.jumbotron .third {
+  float: left;
+  float: left;
+  width: 33%;
+  height: 500px;
+}
+.jumbotron .third-black {
+  width: 500px;
+  height: 400px;
+  background-color: black;
+  margin-top: 50px;
+  position: relative;
+}
+.jumbotron .third-black-costs {
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-size: 25px;
+  padding: 25px 25px;
+  display: inline-block;
+}
+.jumbotron .third-black-button > button {
+  width: 200px;
+  height: 30px;
+  background-color: lightblue;
+}
+.jumbotron .third-black-icon {
+  width: 90px;
+  height: 90px;
+  background-image: url("../img/icon.png");
+  display: inline-block;
+  float: right;
+  margin: 20px 20px;
+}
