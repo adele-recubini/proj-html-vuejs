@@ -126,7 +126,17 @@
 
       <div class="footer">
         <div class="footer-item">
-          <img :src="logoLight" alt="">
+          <img :src="logoLight" alt=""><br>
+          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+          <hr>
+          <h5>LEARN MORE ABOUT US</h5>
+          <ul>
+            <li><i v-for="icon in iconSocial" :class="icon.group + ' ' + icon.prefix + icon.name"></i>
+            </li>
+          </ul>
+
+
+
 
         </div>
         <div class="footer-item">
