@@ -9,20 +9,30 @@
   background-image: url("../img/header-image-homepage.jpg");
   background-size: cover;
 }
-.jumbotron-left > img {
+.jumbotron .nav {
+  width: 100%;
+  height: 200px;
+}
+.jumbotron .nav-left > img {
   float: left;
   margin-top: 15px;
 }
-.jumbotron-right {
+.jumbotron .nav-right {
   float: right;
   display: inline-block;
   margin-top: 15PX;
 }
-.jumbotron-right > li {
+.jumbotron .nav-right > li {
   list-style: none;
   display: inline;
   padding: 10px;
 }
-.jumbotron-right > li > a {
+.jumbotron .nav-right > li > a {
   text-decoration: none;
+}
+.jumbotron .center {
+  width: 500px;
+  height: 200px;
+  border: 1px solid black;
+  margin-left: 50px;
 }
