@@ -106,8 +106,18 @@
 .container-four .items {
   width: 25%;
   line-height: 25px;
-  margin-left: 5px;
 }
 .container-four .items > ul > li {
   display: inline;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 500px;
+}
+.footer-item {
+  width: 30%;
+  border: 1px solid red;
 }

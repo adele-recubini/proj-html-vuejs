@@ -3,6 +3,7 @@ var app = new Vue({
    data: {
      bgImg: 'img/header-image-homepage.jpg',
      logo:'img/medical_logo_1x_light.png',
+     logoLight:'img/medical_logo_1x_dark.png',
      linkHeader:['HOME' , 'ABOUT', 'DEPARTMENTS', 'ARTICLES'],
      iconSocial:[
        {
