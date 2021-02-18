@@ -1,5 +1,11 @@
 @import "variables";
 
+@mixin flex {
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
 
 
 * {
@@ -51,8 +57,31 @@
   height: 200px;
   border: 1px solid black;
   margin-left: 50px;
-
-
+ }
 }
+// fine jumbotron
+// inizio prima section
+
+.container-first{
+  width: 500px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container-second{
+  width: 800px;
+  height: 500px;
+  border:1px solid black;
+  margin: 0 auto;
+  @include flex;
+  
+  .item{
+    width: 22%;
+    border: 1px solid black;
+
+
+  }
 
 }
