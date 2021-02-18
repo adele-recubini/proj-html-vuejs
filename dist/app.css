@@ -86,7 +86,7 @@
   height: 200px;
   height: 300px;
   margin: 0 auto;
-  line-height: 30px;
+  line-height: 30p x;
   font-size: 18px;
   color: #bcbcbd;
 }
@@ -101,10 +101,13 @@
   justify-content: space-around;
   margin: 0 auto;
   background-color: #f1efef;
-  height: 500px;
+  height: 700px;
 }
 .container-four .items {
   width: 25%;
-  border: 1px solid black;
-  height: 200px;
+  line-height: 25px;
+  margin-left: 5px;
+}
+.container-four .items > ul > li {
+  display: inline;
 }

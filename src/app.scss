@@ -120,7 +120,8 @@
 
     height: 300px;
     margin: 0 auto;
-    line-height: 30px;
+    line-height: 30p
+    x;
     font-size: 18px;
     color: $words
    }
@@ -131,17 +132,18 @@
 }
 .container-four{
   @include flex;
-
   margin:0 auto;
   background-color:$bg-color;
-  height: 500px;
+  height: 700px;
 
   .items{
     width: 25%;
-    border: 1px solid black;
-    height: 200px;
-
-
+    line-height: 25px;
+    margin-left: 5px;
   }
+  .items>ul>li{
+    display: inline;
+  }
+
 
 }
