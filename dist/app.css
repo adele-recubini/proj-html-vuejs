@@ -29,6 +29,15 @@
 }
 .jumbotron .nav-right > li > a {
   text-decoration: none;
+  color: #ffff;
+}
+.jumbotron .nav-right > li > span {
+  color: #ffff;
+}
+.jumbotron .nav-right > li > span > button {
+  width: 200px;
+  height: 50px;
+  background-color: #39afbb;
 }
 .jumbotron .center {
   width: 500px;
@@ -40,21 +49,21 @@
 .container-first {
   width: 500px;
   height: 100px;
-  border: 1px solid black;
   margin: 0 auto;
   text-align: center;
+  padding: 10px;
 }
 
 .container-second {
   width: 800px;
   height: 500px;
-  border: 1px solid black;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .container-second .item {
-  width: 22%;
-  border: 1px solid black;
+  width: 24%;
+  text-align: center;
+  padding: 5px;
 }

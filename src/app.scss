@@ -1,4 +1,5 @@
 @import "variables";
+@import "colors";
 
 @mixin flex {
   display:flex;
@@ -46,7 +47,20 @@
 
     &>li>a{
       text-decoration: none;
+      color:$word;
     }
+
+    &>li>span{
+      color:$word;
+    }
+
+    &>li>span>button{
+      width: 200px;
+      height: 50px;
+      background-color: $button;
+    }
+
+
 
   }
 
@@ -65,23 +79,20 @@
 .container-first{
   width: 500px;
   height: 100px;
-  border: 1px solid black;
   margin: 0 auto;
   text-align: center;
+  padding: 10px;
 }
 
 .container-second{
   width: 800px;
   height: 500px;
-  border:1px solid black;
   margin: 0 auto;
   @include flex;
-  
+
   .item{
-    width: 22%;
-    border: 1px solid black;
-
-
+    width: 24%;
+    text-align: center;
+    padding: 5px;
   }
-
 }
