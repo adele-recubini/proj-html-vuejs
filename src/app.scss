@@ -8,6 +8,10 @@
 }
 
 
+#root {
+    font-family: 'Lato', sans-serif;
+
+}
 
 * {
   box-sizing: border-box;
@@ -71,6 +75,7 @@
   height: 200px;
   border: 1px solid black;
   margin-left: 50px;
+
  }
 }
 // fine jumbotron
@@ -82,6 +87,7 @@
   margin: 0 auto;
   text-align: center;
   padding: 10px;
+
 }
 
 .container-second{
@@ -94,5 +100,7 @@
     width: 24%;
     text-align: center;
     padding: 5px;
+    color:$words;
+    font-size: 20px;
   }
 }

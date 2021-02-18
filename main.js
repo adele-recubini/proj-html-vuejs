@@ -9,12 +9,12 @@ var app = new Vue({
          name: "twitter-square",
          group: "fab",
          prefix: "fa-",
-       }
+       },
        {
          name: "youtube",
          group: "fab",
          prefix: "fa-",
-       }
+       },
        {
          name: "facebook-square",
          group: "fab",
@@ -28,17 +28,17 @@ var app = new Vue({
          group: "far",
          prefix: "fa-",
          contact: "121 King Street, London United Kingdom"
-       }
+       },
        {
          name: "map-marker-alt",
          group: "far",
          prefix: "fa-",
-         phone:"1.800.458.556"
+         contact:"1.800.458.556"
 
        }
      ],
 
-     medicalDepartment:[ "Cardiology" , "pediatrics" , "Diabetes Care" , "Pre-natel-care", "Ultrasound Echocardiogram" ]
+     medicalDepartment:[ "Cardiology" , "pediatrics" , "Diabetes Care" , "Pre-natel-care", "Ultrasound Echocardiogram" ],
 
 
 

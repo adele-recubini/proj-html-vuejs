@@ -1,3 +1,7 @@
+#root {
+  font-family: "Lato", sans-serif;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -66,4 +70,6 @@
   width: 24%;
   text-align: center;
   padding: 5px;
+  color: #bcbcbd;
+  font-size: 20px;
 }
