@@ -186,12 +186,29 @@
   margin: 0 auto;
   text-align: center;
   line-height: 25px;
+}
 
+// fine services
+
+
+// inizio types
+
+.types{
+  width: 50%;
+    @include flex;
+    border: 1px solid black;
+    height: 200px;
+    margin: 0 auto;
+
+    .item{
+      width: 30%;
+      border: 1px solid black;
+      height: 50px;
+    }
 }
 
 
-
-// fine services
+// fine types
 
 //  inizio footer
 
