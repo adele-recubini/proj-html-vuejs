@@ -36,7 +36,7 @@
   color: #ffff;
 }
 .jumbotron .nav-right > li > a:hover {
-  color: blue;
+  color: #39afbb;
 }
 .jumbotron .nav-right > li > span {
   color: #ffff;
@@ -47,11 +47,22 @@
   background-color: #39afbb;
 }
 .jumbotron .center {
-  width: 500px;
+  width: 600px;
   height: 200px;
-  border: 1px solid black;
-  margin-left: 100px;
+  margin-left: 400px;
   color: #ffff;
+}
+.jumbotron .center > h1 > span {
+  color: #39afbb;
+}
+.jumbotron .center > h1 {
+  font-size: 45px;
+  font-style: italic;
+}
+.jumbotron .center > span > button {
+  width: 200px;
+  height: 50px;
+  background-color: #39afbb;
 }
 
 .container-first {

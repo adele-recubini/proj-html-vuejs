@@ -6,6 +6,11 @@
   flex-direction: row;
   justify-content:space-around;
 }
+@mixin button{
+  width: 200px;
+  height: 50px;
+  background-color: $button;
+}
 
 
 #root {
@@ -54,7 +59,7 @@
       color:$word;
     }
     &>li>a:hover{
-    color:blue;
+    color:$button;
     }
 
     &>li>span{
@@ -62,9 +67,7 @@
     }
 
     &>li>span>button{
-      width: 200px;
-      height: 50px;
-      background-color: $button;
+    @include button;
     }
 
 
@@ -74,12 +77,24 @@
 }
 
 .center{
-  width: 500px;
+  width: 600px;
   height: 200px;
-  border: 1px solid black;
-  margin-left: 100px;
+  margin-left: 400px;
   color: $word;
 
+  &>h1>span{
+    color:$button;
+  }
+
+  &>h1{
+    font-size: 45px;
+    font-style: italic;
+  }
+
+
+  &>span>button{
+  @include button;
+ }
  }
 }
 // fine jumbotron
