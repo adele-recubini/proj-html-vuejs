@@ -1,6 +1,9 @@
 var app = new Vue({
    el: "#app",
    data: {
+     colorF:'#46525f',
+     colorT:'#3ba5bd',
+     colorI:'#88acab',
      bgImg: 'img/header-image-homepage.jpg',
      logo:'img/medical_logo_1x_light.png',
      logoLight:'img/medical_logo_1x_dark.png',
