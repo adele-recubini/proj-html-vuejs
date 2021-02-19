@@ -50,7 +50,8 @@
   width: 500px;
   height: 200px;
   border: 1px solid black;
-  margin-left: 50px;
+  margin-left: 100px;
+  color: #ffff;
 }
 
 .container-first {
@@ -121,7 +122,7 @@
   height: 500px;
 }
 .footer .item {
-  width: 30%;
+  width: 20%;
   line-height: 25PX;
   margin-top: 20px;
 }
