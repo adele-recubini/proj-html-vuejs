@@ -169,9 +169,11 @@
 }
 
 .form {
-  height: 900px;
   background-image: url("../img/make-an-appointment.jpg");
-  background-size: cover;
+  height: 900px;
+}
+
+.container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -189,6 +191,7 @@
   height: 70px;
   background-color: #39afbb;
   color: white;
+  border: 2px solid white;
 }
 
 .squarestwo {
@@ -203,6 +206,7 @@
   height: 70px;
   background-color: #3ba5bd;
   color: white;
+  border: 2px solid white;
 }
 
 .squaresthree {
@@ -217,6 +221,27 @@
   height: 70px;
   background-color: #449ebf;
   color: white;
+  border: 2px solid white;
+}
+
+.text-container {
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffff;
+  line-height: 25px;
+}
+
+.form-container {
+  width: 700px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+.form-container > input {
+  background-color: inherit;
 }
 
 .gradient {
@@ -224,6 +249,9 @@
   background-size: cover;
   height: 200px;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .footer {

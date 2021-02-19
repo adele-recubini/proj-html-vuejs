@@ -225,11 +225,16 @@
 // inizio form
 
 .form{
-  height: 900px;
   background-image: url($form-img);
-  background-size: cover;
+
+  height:900px;
+}
+
+.container{
   @include flex;
 }
+
+
 
 .squaresone{
 @include square;
@@ -240,6 +245,7 @@ background-color:$button;
    height: 70px;
    background-color: $button;
    color: white;
+   border: 2px solid white;
  }
 }
 .squarestwo{
@@ -251,6 +257,7 @@ background-color: $squarethree;
   height: 70px;
   background-color: $squarethree;
   color: white;
+  border: 2px solid white;
 }
 
 }
@@ -264,10 +271,34 @@ background-color: $squaretwo;
   height: 70px;
   background-color: $squaretwo;
   color: white;
+  border: 2px solid white;
+}
+}
+.text-container{
+  width: 400px;
+  height: 200px;
+  border:1px solid black;
+  margin:0 auto;
+  text-align: center;
+  color:$word;
+  line-height: 25px;
+}
+
+.form-container{
+  width: 700px;
+  height: 200px;
+  border: 1px solid black;
+  margin:0 auto;
+
+  &>input{
+    background-color: inherit;
+  }
 }
 
 
-}
+
+
+
 // fine form
 
 // inizio gradient
@@ -276,10 +307,8 @@ background-color: $squaretwo;
   background-size: cover;
   height: 200px;
   width: 100%;
-
+  @include flex;
 }
-
-
 
 // fine gradient
 
