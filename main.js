@@ -10,7 +10,7 @@ var app = new Vue({
          name: "twitter-square",
          group: "fab",
          prefix: "fa-",
-         
+
 
        },
        {
@@ -28,15 +28,17 @@ var app = new Vue({
     iconPosition:[
        {
          name: "phone",
-         group: "far",
+         group: "fas",
          prefix: "fa-",
-         contact: "121 King Street, London United Kingdom"
+         contact: "121 King Street, London United Kingdom",
+
        },
        {
          name: "map-marker-alt",
-         group: "far",
+         group: "fas",
          prefix: "fa-",
-         contact:"1.800.458.556"
+         contact:"1.800.458.556",
+
 
        }
      ],

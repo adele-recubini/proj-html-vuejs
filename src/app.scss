@@ -123,8 +123,7 @@
 
     height: 300px;
     margin: 0 auto;
-    line-height: 30p
-    x;
+    line-height: 30px;
     font-size: 18px;
     color: $words
    }
@@ -158,11 +157,34 @@
 
   .item{
     width: 30%;
-    border: 1px solid red;
     line-height: 25PX;
+    margin-top: 20px;
   }
   .item-special{
     width: 30%;
+    line-height: 25PX;
+    margin-top: 20px;
+  }
+
+  .item-specials{
+    width: 30%;
+    line-height: 25PX;
+    margin-top: 20px;
+  }
+  
+  .item-spacial>ul>li{
+    list-style: none;
+
+  }
+
+
+
+  .item-spacial>ul>a{
+    text-decoration: none;
+    list-style: none;
+  }
+  .item-spacial>ul>li>i{
+    color: blue;
   }
   .item>ul>li{
     display: inline;
@@ -171,7 +193,7 @@
   .item>ul>li>i{
     font-size: 40px;
     padding: 10px;
-    color: blue;
+
 
   }
 }

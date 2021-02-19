@@ -89,7 +89,7 @@
   height: 200px;
   height: 300px;
   margin: 0 auto;
-  line-height: 30p x;
+  line-height: 30px;
   font-size: 18px;
   color: #bcbcbd;
 }
@@ -122,11 +122,28 @@
 }
 .footer .item {
   width: 30%;
-  border: 1px solid red;
   line-height: 25PX;
+  margin-top: 20px;
 }
 .footer .item-special {
   width: 30%;
+  line-height: 25PX;
+  margin-top: 20px;
+}
+.footer .item-specials {
+  width: 30%;
+  line-height: 25PX;
+  margin-top: 20px;
+}
+.footer .item-spacial > ul > li {
+  list-style: none;
+}
+.footer .item-spacial > ul > a {
+  text-decoration: none;
+  list-style: none;
+}
+.footer .item-spacial > ul > li > i {
+  color: blue;
 }
 .footer .item > ul > li {
   display: inline;
@@ -135,5 +152,4 @@
 .footer .item > ul > li > i {
   font-size: 40px;
   padding: 10px;
-  color: blue;
 }

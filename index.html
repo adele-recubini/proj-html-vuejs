@@ -135,15 +135,21 @@
             </li>
           </ul>
         </div>
-        <div class="item">
-          <h4>CONTACT INFORMATION</h4>
+
+        <div class="item-specials">
+          <h4>CONTACT INFORMATION</h4><br><br>
+          <ul>
+            <li v-for="icon in iconPosition">
+              <i :class="icon.group + ' ' + icon.prefix + icon.name"></i><span>{{icon.contact}}</span>
+            </li>
+          </ul>
         </div>
 
         <div class="item-special">
-          <h4>MEDICAL DEPARTMENTS</h4>
+          <h4>MEDICAL DEPARTMENTS</h4><br><br>
           <ul>
             <li v-for="element in medicalDepartment">
-              <i class="fa fa-circle-thin" aria-hidden="true"></i><a href="#">
+            <i class="far fa-arrow-alt-circle-right"></i><a href="#">
                 {{element}}
               </a>
 
@@ -155,8 +161,9 @@
 
       </div>
 
-
-
+<!--
+       contact: "121 King Street, London United Kingdom"
+       contact:"1.800.458.556" -->
 
       <!-- preparazione stampa dei dati del footer -->
       <!-- <ul><li><i v-for="icon in iconSocial" :class="icon.group + ' ' + icon.prefix + icon.name"></i></li></ul>
