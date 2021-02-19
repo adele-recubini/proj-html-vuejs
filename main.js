@@ -13,18 +13,19 @@ var app = new Vue({
          name: "twitter-square",
          group: "fab",
          prefix: "fa-",
-
-
+         color:'#46525f'
        },
        {
          name: "youtube",
          group: "fab",
          prefix: "fa-",
+         color:'#46525f'
        },
        {
          name: "facebook-square",
          group: "fab",
          prefix: "fa-",
+         color:'#46525f'
        }
      ],
 

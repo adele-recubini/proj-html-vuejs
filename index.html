@@ -85,7 +85,7 @@
           <img src="img\doctor-1.jpg" alt=""><br>
           <h4>JON SNOW</h4><br><br>
           <span>Anesthesiologist</span><br>
-          <span>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</span><br><br>
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p><br><br>
           <ul>
             <li><i class="fab fa-facebook-square fa-2x" :style ="'color:' + colorF"></i></li>
             <li><i class="fab fa-twitter-square fa-2x" :style ="'color:' + colorT"></i></li>
@@ -96,7 +96,7 @@
           <img src="img\doctor-2.jpg" alt=""><br>
           <h4>TONY STARK</h4><br><br>
           <span>Cardiologist</span><br>
-          <span>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</span><br><br>
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p><br><br>
           <ul>
             <li><i class="fab fa-facebook-square fa-2x" :style ="'color:' + colorF"></i></li>
             <li><i class="fab fa-twitter-square fa-2x" :style ="'color:' + colorT"></i></li>
@@ -108,28 +108,38 @@
           <img src="img\doctor-3.jpg" alt=""><br>
           <h4>ANNA SMITH</h4><br><br>
           <span>Nurse Practicioner</span><br>
-          <span>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</span><br><br>
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p><br><br>
           <ul>
             <li><i class="fab fa-facebook-square fa-2x" :style ="'color:' + colorF"></i></li>
             <li><i class="fab fa-twitter-square fa-2x" :style ="'color:' + colorT"></i></li>
             <li><i class="fab fa-instagram fa-2x" :style ="'color:'+ colorI"></i></li>
-
           </ul>
-
         </div>
+      </div>
+      <!-- fine seconda section -->
+
+
+      <div class="services">
+        <img src="img/" alt="">
 
       </div>
 
 
-      <!-- fine seconda section -->
 
 
 
+      <!-- finzio terza section -->
+
+
+      <!-- fine terza section -->
+
+
+  <!-- inzio footer -->
       <div class="footer">
         <div class="item">
           <img :src="logoLight" alt=""><br>
           <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
-          <hr>
+          <hr><br>
           <h5>LEARN MORE ABOUT US</h5>
           <ul>
             <li><i v-for="icon in iconSocial" :class="icon.group + ' ' + icon.prefix + icon.name"></i>
@@ -141,7 +151,8 @@
           <h2>CONTACT INFORMATION</h2><br><br>
           <ul>
             <li v-for="icon in iconPosition">
-              <i :class="icon.group + ' ' + icon.prefix + icon.name"></i><span>{{icon.contact}}</span>
+              <i :class="icon.group + ' ' + icon.prefix + icon.name"></i>
+            <span>{{icon.contact}}</span>
             </li>
           </ul>
         </div>
@@ -156,11 +167,10 @@
             </li>
           </ul><br><br><br>
           <span><button type="button" name="button">VIEW OUR DEPARTMENTS</button></span>
-
         </div>
-
-
       </div>
+
+      <!-- fine footer -->
 
 
 
