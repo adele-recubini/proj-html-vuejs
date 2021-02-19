@@ -13,7 +13,7 @@
 }
 @mixin square{
     width: 34%;
-    height: 200px;
+    height: 300px;
     text-align: center;
     color: white;
 }
@@ -234,14 +234,39 @@
 .squaresone{
 @include square;
 background-color:$button;
+
+ &>span>button{
+   width: 200px;
+   height: 70px;
+   background-color: $button;
+   color: white;
+ }
 }
 .squarestwo{
 @include square;
 background-color: $squarethree;
+
+&>span>button{
+  width: 200px;
+  height: 70px;
+  background-color: $squarethree;
+  color: white;
 }
+
+}
+
 .squaresthree{
 @include square;
 background-color: $squaretwo;
+
+&>span>button{
+  width: 200px;
+  height: 70px;
+  background-color: $squaretwo;
+  color: white;
+}
+
+
 }
 
 

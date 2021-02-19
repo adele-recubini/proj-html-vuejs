@@ -179,26 +179,44 @@
 
 .squaresone {
   width: 34%;
-  height: 200px;
+  height: 300px;
   text-align: center;
   color: white;
   background-color: #39afbb;
 }
+.squaresone > span > button {
+  width: 200px;
+  height: 70px;
+  background-color: #39afbb;
+  color: white;
+}
 
 .squarestwo {
   width: 34%;
-  height: 200px;
+  height: 300px;
   text-align: center;
   color: white;
   background-color: #3ba5bd;
 }
+.squarestwo > span > button {
+  width: 200px;
+  height: 70px;
+  background-color: #3ba5bd;
+  color: white;
+}
 
 .squaresthree {
   width: 34%;
-  height: 200px;
+  height: 300px;
   text-align: center;
   color: white;
   background-color: #449ebf;
+}
+.squaresthree > span > button {
+  width: 200px;
+  height: 70px;
+  background-color: #449ebf;
+  color: white;
 }
 
 .footer {
