@@ -137,26 +137,6 @@
   line-height: 25PX;
   margin-top: 20px;
 }
-.footer .item-special {
-  width: 30%;
-  line-height: 25PX;
-  margin-top: 20px;
-}
-.footer .item-specials {
-  width: 30%;
-  line-height: 25PX;
-  margin-top: 20px;
-}
-.footer .item-spacial > ul > li {
-  list-style: none;
-}
-.footer .item-spacial > ul > a {
-  text-decoration: none;
-  list-style: none;
-}
-.footer .item-spacial > ul > li > i {
-  color: blue;
-}
 .footer .item > ul > li {
   display: inline;
   padding: 10px;
@@ -164,4 +144,39 @@
 .footer .item > ul > li > i {
   font-size: 40px;
   padding: 10px;
+}
+.footer .item-specials {
+  width: 30%;
+  line-height: 25PX;
+  margin-top: 20px;
+}
+.footer .item-specials > ul > li {
+  list-style: none;
+}
+.footer .item-specials > ul > li > i {
+  color: #39afbb;
+  font-size: 20px;
+  padding: 5px;
+}
+.footer .item-special {
+  width: 30%;
+  line-height: 25PX;
+  margin-top: 20px;
+}
+.footer .item-special > ul > li {
+  list-style: none;
+}
+.footer .item-special > ul > li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.footer .item-special > ul > li > i {
+  color: #39afbb;
+  font-size: 20px;
+}
+.footer .item-special > span > button {
+  width: 200px;
+  height: 50px;
+  background-color: #ffff;
 }

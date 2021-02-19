@@ -170,37 +170,11 @@
 .footer{
   @include flex;
   height: 500px;
-
+// item left
   .item{
     width: 20%;
     line-height: 25PX;
     margin-top: 20px;
-  }
-  .item-special{
-    width: 30%;
-    line-height: 25PX;
-    margin-top: 20px;
-  }
-
-  .item-specials{
-    width: 30%;
-    line-height: 25PX;
-    margin-top: 20px;
-  }
-
-  .item-spacial>ul>li{
-    list-style: none;
-
-  }
-
-
-
-  .item-spacial>ul>a{
-    text-decoration: none;
-    list-style: none;
-  }
-  .item-spacial>ul>li>i{
-    color: blue;
   }
   .item>ul>li{
     display: inline;
@@ -209,9 +183,57 @@
   .item>ul>li>i{
     font-size: 40px;
     padding: 10px;
+  }
 
+// item centre -- item specials
+
+.item-specials{
+  width: 30%;
+  line-height: 25PX;
+  margin-top: 20px;
+
+
+  &>ul>li{
+    list-style: none;
+  }
+
+  &>ul>li>i{
+    color: $button;
+    font-size: 20px;
+    padding: 5px;
 
   }
+}
+
+// item right
+  .item-special{
+    width: 30%;
+    line-height: 25PX;
+    margin-top: 20px;
+
+    &>ul>li{
+      list-style: none;
+    }
+
+    &>ul>li>a{
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+    }
+
+   &>ul>li>i{
+      color: $button;
+      font-size: 20px;
+    }
+
+    &>span>button{
+      width: 200px;
+      height: 50px;
+      background-color: $word;
+    }
+  }
+
+
 }
 
 

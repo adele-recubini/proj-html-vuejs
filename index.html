@@ -137,7 +137,7 @@
         </div>
 
         <div class="item-specials">
-          <h4>CONTACT INFORMATION</h4><br><br>
+          <h2>CONTACT INFORMATION</h2><br><br>
           <ul>
             <li v-for="icon in iconPosition">
               <i :class="icon.group + ' ' + icon.prefix + icon.name"></i><span>{{icon.contact}}</span>
@@ -146,15 +146,15 @@
         </div>
 
         <div class="item-special">
-          <h4>MEDICAL DEPARTMENTS</h4><br><br>
+          <h2>MEDICAL DEPARTMENTS</h2><br><br>
           <ul>
             <li v-for="element in medicalDepartment">
             <i class="far fa-arrow-alt-circle-right"></i><a href="#">
                 {{element}}
               </a>
-
             </li>
-          </ul>
+          </ul><br><br><br>
+          <span><button type="button" name="button">VIEW OUR DEPARTMENTS</button></span>
 
         </div>
 
