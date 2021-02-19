@@ -138,6 +138,15 @@
   display: inline;
 }
 
+.services {
+  height: 400px;
+  border: 1px solid black;
+  width: 500PX;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 25px;
+}
+
 .footer {
   display: flex;
   flex-direction: row;

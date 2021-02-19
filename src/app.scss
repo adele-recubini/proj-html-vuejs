@@ -146,6 +146,7 @@
       color: black;
     }
 }
+// inizio container four
 .container-four{
   @include flex;
   margin:0 auto;
@@ -170,19 +171,28 @@
     &>ul>li>i{
       margin-left:$margin;
     }
-
-
-
     &>ul>li{
       display: inline;
     }
-
-
   }
+}
+// fine contenitore four
 
-
+// inzio services
+.services{
+  height: 400px;
+  border:1px solid black;
+  width: 500PX;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 25px;
 
 }
+
+
+
+// fine services
+
 //  inizio footer
 
 .footer{
