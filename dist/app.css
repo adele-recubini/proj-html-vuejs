@@ -219,6 +219,13 @@
   color: white;
 }
 
+.gradient {
+  background-image: url("../img/rgb-gradient-bar-for-logo-carrasel.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+
 .footer {
   display: flex;
   flex-direction: row;

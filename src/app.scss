@@ -268,10 +268,20 @@ background-color: $squaretwo;
 
 
 }
-
-
-
 // fine form
+
+// inizio gradient
+.gradient{
+  background-image: url($gradient-bg);
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+
+}
+
+
+
+// fine gradient
 
 //  inizio footer
 
