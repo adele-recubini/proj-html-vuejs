@@ -11,7 +11,12 @@
   height: 50px;
   background-color: $button;
 }
-
+@mixin square{
+    width: 34%;
+    height: 200px;
+    text-align: center;
+    color: white;
+}
 
 #root {
     font-family: 'Lato', sans-serif;
@@ -168,7 +173,7 @@
     &>p{
     margin-left:$margin;
     }
-    &>ul>li>i{
+    &>ul>li>a>i{
       margin-left:$margin;
     }
     &>ul>li{
@@ -216,6 +221,32 @@
 }
 
 // fine types
+
+// inizio form
+
+.form{
+  height: 900px;
+  background-image: url($form-img);
+  background-size: cover;
+  @include flex;
+}
+
+.squaresone{
+@include square;
+background-color:$button;
+}
+.squarestwo{
+@include square;
+background-color: $squarethree;
+}
+.squaresthree{
+@include square;
+background-color: $squaretwo;
+}
+
+
+
+// fine form
 
 //  inizio footer
 

@@ -131,7 +131,7 @@
 .container-four .items > p {
   margin-left: 10px;
 }
-.container-four .items > ul > li > i {
+.container-four .items > ul > li > a > i {
   margin-left: 10px;
 }
 .container-four .items > ul > li {
@@ -166,6 +166,39 @@
 }
 .types .item > h4 {
   color: #0f1d2d;
+}
+
+.form {
+  height: 900px;
+  background-image: url("../img/make-an-appointment.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.squaresone {
+  width: 34%;
+  height: 200px;
+  text-align: center;
+  color: white;
+  background-color: #39afbb;
+}
+
+.squarestwo {
+  width: 34%;
+  height: 200px;
+  text-align: center;
+  color: white;
+  background-color: #3ba5bd;
+}
+
+.squaresthree {
+  width: 34%;
+  height: 200px;
+  text-align: center;
+  color: white;
+  background-color: #449ebf;
 }
 
 .footer {
