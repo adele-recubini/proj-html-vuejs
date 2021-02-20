@@ -168,6 +168,25 @@
   color: #0f1d2d;
 }
 
+.video {
+  background-image: url("../img/paralax-bg-tour-facilities.jpg");
+  height: 1000px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  background-size: auto;
+}
+.video > img {
+  margin-top: 40px;
+}
+.video > span {
+  margin-top: 40px;
+}
+.video > h2 {
+  margin-top: 40px;
+}
+
 .form {
   background-image: url("../img/make-an-appointment.jpg");
   height: 1000px;
@@ -186,6 +205,9 @@
   color: white;
   background-color: #39afbb;
 }
+.squaresone > H2 {
+  margin-top: 20px;
+}
 .squaresone > span > button {
   width: 200px;
   height: 70px;
@@ -201,6 +223,9 @@
   color: white;
   background-color: #3ba5bd;
 }
+.squarestwo > H2 {
+  margin-top: 20px;
+}
 .squarestwo > span > button {
   width: 200px;
   height: 70px;
@@ -215,6 +240,9 @@
   text-align: center;
   color: white;
   background-color: #449ebf;
+}
+.squaresthree > H2 {
+  margin-top: 20px;
 }
 .squaresthree > span > button {
   width: 200px;
