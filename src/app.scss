@@ -276,7 +276,7 @@ background-color: $squaretwo;
 }
 .text-container{
   width: 400px;
-  height: 200px;
+  height: 100px;
   border:1px solid black;
   margin:0 auto;
   text-align: center;
@@ -287,12 +287,23 @@ background-color: $squaretwo;
 .form-container{
   width: 700px;
   height: 200px;
-  border: 1px solid black;
-  margin:0 auto;
+  border: 1px solid white;
+  margin: 0 auto;
+  @include flex;
 
-  &>input{
-    background-color: inherit;
+  .contact{
+    width: 50%;
+    height: 50px;
+    border:1px solid black;
+    display: inline-block;
+
+
+    &>input{
+      background-color: inherit;
+    }
+
   }
+
 }
 
 
