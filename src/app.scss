@@ -289,6 +289,8 @@ background-color: $squaretwo;
   height: 200px;
   border: 1px solid white;
   margin: 0 auto;
+  margin-top: 100px;
+  margin-right: 500px;
   @include flex;
 
   .contact{
@@ -302,8 +304,32 @@ background-color: $squaretwo;
       background-color: inherit;
     }
 
+    &>input[placeholder]{
+      width: 300px;
+      height: 50px;
+      border:1px solid white;
+    }
+  }
+}
+
+.form-text{
+  width: 700px;
+  height: 100px;
+  border:1px solid white;
+  margin: 0 auto;
+
+  &>input{
+    background-color: inherit;
   }
 
+
+
+  &>input[placeholder]{
+    width: 500px;
+    height: 100px;
+    border:1px solid white;
+    margin-left: 50px;
+  }
 }
 
 
