@@ -20,6 +20,7 @@
 .jumbotron .nav-left > img {
   float: left;
   margin-top: 15px;
+  margin-left: 15px;
 }
 .jumbotron .nav-right {
   float: right;
@@ -45,24 +46,31 @@
   width: 200px;
   height: 50px;
   background-color: #39afbb;
+  color: white;
+  border: none;
 }
 .jumbotron .center {
   width: 600px;
   height: 200px;
   margin-left: 400px;
   color: #ffff;
+  line-height: 25px;
 }
 .jumbotron .center > h1 > span {
   color: #39afbb;
 }
 .jumbotron .center > h1 {
   font-size: 45px;
-  font-style: italic;
+}
+.jumbotron .center > h3 {
+  font-style: normal;
 }
 .jumbotron .center > span > button {
   width: 200px;
   height: 50px;
   background-color: #39afbb;
+  color: white;
+  border: none;
 }
 
 .container-first {

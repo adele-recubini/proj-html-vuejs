@@ -38,12 +38,10 @@
     height: 200px;
 
 
-
-
-
   &-left>img{
     float:left;
     margin-top: 15px;
+    margin-left: 15px;
 
   }
 
@@ -73,6 +71,8 @@
 
     &>li>span>button{
     @include button;
+    color: white;
+    border: $no-border;
     }
 
 
@@ -86,6 +86,7 @@
   height: 200px;
   margin-left: 400px;
   color: $word;
+  line-height: 25px;
 
   &>h1>span{
     color:$button;
@@ -93,12 +94,18 @@
 
   &>h1{
     font-size: 45px;
-    font-style: italic;
+  }
+
+  &>h3{
+    font-style: normal;
   }
 
 
   &>span>button{
   @include button;
+  color:white;
+  border: $no-border;
+
  }
  }
 }
