@@ -170,7 +170,7 @@
 
 .form {
   background-image: url("../img/make-an-appointment.jpg");
-  height: 900px;
+  height: 1000px;
 }
 
 .container {
@@ -227,7 +227,6 @@
 .text-container {
   width: 400px;
   height: 100px;
-  border: 1px solid black;
   margin: 0 auto;
   text-align: center;
   color: #ffff;
@@ -237,10 +236,9 @@
 .form-container {
   width: 700px;
   height: 200px;
-  border: 1px solid white;
   margin: 0 auto;
   margin-top: 100px;
-  margin-right: 500px;
+  margin-right: 530px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -248,7 +246,6 @@
 .form-container .contact {
   width: 50%;
   height: 50px;
-  border: 1px solid black;
   display: inline-block;
 }
 .form-container .contact > input {
@@ -261,19 +258,32 @@
 }
 
 .form-text {
-  width: 700px;
+  width: 650px;
   height: 100px;
   border: 1px solid white;
   margin: 0 auto;
+  margin-right: 585px;
 }
 .form-text > input {
   background-color: inherit;
 }
 .form-text > input[placeholder] {
-  width: 500px;
+  width: 650px;
   height: 100px;
   border: 1px solid white;
-  margin-left: 50px;
+}
+
+.appointment {
+  width: 650px;
+  height: 50px;
+  margin: 0 auto;
+  margin-right: 585px;
+}
+.appointment > button {
+  width: 650px;
+  height: 50px;
+  background-color: #39afbb;
+  color: white;
 }
 
 .gradient {
