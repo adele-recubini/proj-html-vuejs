@@ -403,6 +403,11 @@
   line-height: 25PX;
   margin-top: 20px;
 }
+.footer .item-specials .horizzontal-rule-blue {
+  width: 50px;
+  height: 1px;
+  border: 1px solid #39afbb;
+}
 .footer .item-specials > h2 {
   color: #7c858f;
 }
@@ -421,6 +426,11 @@
   width: 30%;
   line-height: 25PX;
   margin-top: 20px;
+}
+.footer .item-special .horizzontal-rule-blue {
+  width: 50px;
+  height: 1px;
+  border: 1px solid #39afbb;
 }
 .footer .item-special > h2 {
   color: #7c858f;
