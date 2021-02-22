@@ -57,13 +57,13 @@
   line-height: 25px;
 }
 .jumbotron .center > span {
-  font-size: 25px;
+  font-size: 20px;
 }
 .jumbotron .center > h1 > span {
   color: #39afbb;
 }
 .jumbotron .center > h1 {
-  font-size: 45px;
+  font-size: 65px;
 }
 .jumbotron .center > h2 {
   font-style: normal;
@@ -83,11 +83,9 @@
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
+  line-height: 25px;
 }
 .container-first > h1 {
-  color: #7c858f;
-}
-.container-first > h1 > span {
   color: #7c858f;
 }
 

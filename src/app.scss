@@ -109,7 +109,7 @@
   line-height: 25px;
 
   &>span{
-    font-size: 25px;
+    font-size: 20px;
   }
 
   &>h1>span{
@@ -117,13 +117,12 @@
   }
 
   &>h1{
-    font-size: 45px;
+    font-size: 65px;
   }
 
   &>h2{
     font-style: normal;
   }
-
 
   &>span>button{
   @include button;
@@ -143,12 +142,9 @@
   text-align: center;
   margin-top:50px;
   margin-bottom: 50px;
+  line-height: 25px;
 
   &>h1{
-    color:$color-lightgrey;
-  }
-
-  &>h1>span{
     color:$color-lightgrey;
   }
 
