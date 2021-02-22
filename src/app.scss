@@ -496,8 +496,12 @@ background-color: $squaretwo;
   .item>ul>li>i{
     font-size: 25px;
     padding: 10px;
+  }
+  .item>ul>li>i>fab fa-instagram{
+    color:red;
 
   }
+
   .item>span{
     color:$color-lightgrey
 

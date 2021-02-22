@@ -8,30 +8,33 @@ var app = new Vue({
      logo:'img/medical_logo_1x_light.png',
      logoLight:'img/medical_logo_1x_dark.png',
      linkHeader:['HOME' , 'ABOUT', 'DEPARTMENTS', 'ARTICLES'],
+
      iconSocial:[
        {
          name: "twitter",
          group: "fab",
          prefix: "fa-",
-         color:'#46525f'
+         color:"#449ebf"
        },
        {
          name: "youtube",
          group: "fab",
          prefix: "fa-",
-         color:'#46525f'
+         color:"#cc201f"
        },
        {
          name: "facebook",
          group: "fab",
          prefix: "fa-",
-         color:'#46525f'
+         color:"#0000ff"
+
        },
        {
          name: "instagram",
          group: "fab",
          prefix: "fa-",
-         color:'#46525f'
+         color:"#3d4954"
+
        },
 
      ],
@@ -56,7 +59,18 @@ var app = new Vue({
      ],
 
      medicalDepartment:[ "Cardiology" , "pediatrics" , "Diabetes Care" , "Pre-natel-care", "Ultrasound Echocardiogram" ],
+   },
 
+   methods: {
+     customColor:function(){
+       if (this.name === 'instagram') {
+         return this.color === 'black';
+       }
+     }
    }
 
- })
+   // fine app
+});
+
+
+ Vue.config.devtools = true

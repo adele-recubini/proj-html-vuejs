@@ -392,6 +392,9 @@
   font-size: 25px;
   padding: 10px;
 }
+.footer .item > ul > li > i > fab fa-instagram {
+  color: red;
+}
 .footer .item > span {
   color: #7c858f;
 }
