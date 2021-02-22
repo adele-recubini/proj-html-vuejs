@@ -389,22 +389,25 @@
   padding: 10px;
 }
 .footer .item > ul > li > i {
-  font-size: 40px;
+  font-size: 25px;
   padding: 10px;
 }
 .footer .item > span {
-  color: #bcbcbd;
+  color: #7c858f;
 }
 .footer .item > h5 {
-  color: #bcbcbd;
+  color: #7c858f;
 }
 .footer .item-specials {
   width: 30%;
   line-height: 25PX;
   margin-top: 20px;
 }
+.footer .item-specials > h2 {
+  color: #7c858f;
+}
 .footer .item-specials > ul > li > span {
-  color: #bcbcbd;
+  color: #7c858f;
 }
 .footer .item-specials > ul > li {
   list-style: none;
@@ -419,12 +422,15 @@
   line-height: 25PX;
   margin-top: 20px;
 }
+.footer .item-special > h2 {
+  color: #7c858f;
+}
 .footer .item-special > ul > li {
   list-style: none;
 }
 .footer .item-special > ul > li > a {
   text-decoration: none;
-  color: #bcbcbd;
+  color: #7c858f;
   font-size: 20px;
 }
 .footer .item-special > ul > li > i {

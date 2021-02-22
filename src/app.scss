@@ -488,14 +488,17 @@ background-color: $squaretwo;
     padding: 10px;
   }
   .item>ul>li>i{
-    font-size: 40px;
+    font-size: 25px;
     padding: 10px;
+
   }
   .item>span{
-  color:$words;
+    color:$color-lightgrey
+
   }
   .item>h5{
-    color: $words;
+    color:$color-lightgrey
+
   }
 
 
@@ -506,8 +509,13 @@ background-color: $squaretwo;
   line-height: 25PX;
   margin-top: 20px;
 
+  &>h2{
+    color:$color-lightgrey
+  }
+
   &>ul>li>span{
-    color:$words;
+    color:$color-lightgrey;
+
   }
 
 
@@ -528,6 +536,10 @@ background-color: $squaretwo;
     line-height: 25PX;
     margin-top: 20px;
 
+    &>h2{
+      color:$color-lightgrey
+    }
+
 
     &>ul>li{
       list-style: none;
@@ -535,7 +547,7 @@ background-color: $squaretwo;
 
     &>ul>li>a{
       text-decoration: none;
-      color:$words;
+      color:$color-lightgrey;
       font-size: 20px;
     }
 

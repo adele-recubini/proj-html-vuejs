@@ -49,22 +49,6 @@ var app = new Vue({
 
      medicalDepartment:[ "Cardiology" , "pediatrics" , "Diabetes Care" , "Pre-natel-care", "Ultrasound Echocardiogram" ],
 
-
-
-
-
-
-
-
-
    }
-
-
-   // <i class="fab fa-twitter-square"></i>
-   // <i class="fab fa-youtube"></i>
-   // <i class="fab fa-facebook-square"></i>
-
-   // <i class="far fa-phone"></i>
-   // <i class="far fa-map-marker-alt"></i>
 
  })
