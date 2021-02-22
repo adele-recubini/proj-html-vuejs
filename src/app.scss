@@ -489,13 +489,9 @@ background-color: $squaretwo;
     display: inline;
     padding: 10px;
   }
-  .item>ul>li>i{
+  .item>ul>li>a>i{
     font-size: 25px;
     padding: 10px;
-  }
-  .item>ul>li>i>fab fa-instagram{
-    color:red;
-
   }
 
   .item>span{
