@@ -8,6 +8,16 @@ var app = new Vue({
      logo:'img/medical_logo_1x_light.png',
      logoLight:'img/medical_logo_1x_dark.png',
      linkHeader:['HOME' , 'ABOUT', 'DEPARTMENTS', 'ARTICLES'],
+     doctorOne:'img/doctor-1.jpg',
+     doctorTwo:'img/doctor-2.jpg',
+     doctorThree:'img/doctor-3.jpg',
+     servicesA:'img/icon-14.png',
+     servicesB:'img/icon-15.png',
+     servicesC:'img/icon-16.png',
+     servicesD:'img/icon-11.png',
+     servicesE:'img/icon-12.png',
+     servicesF:'img/icon-13.png',
+
 
      iconSocial:[
        {
