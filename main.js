@@ -62,11 +62,6 @@ var app = new Vue({
    },
 
    methods: {
-     customColor:function(){
-       if (this.name === 'instagram') {
-         return this.color === 'black';
-       }
-     }
    }
 
    // fine app
