@@ -580,3 +580,14 @@ background-color: $squaretwo;
 }
 
 // fine footer
+
+.up{
+  margin:0 auto;
+  height: 100px;
+  width: 100px;
+
+  &>input{
+    background-color:$squarethree;
+    border: $no-border
+  }
+}

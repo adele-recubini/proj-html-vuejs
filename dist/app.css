@@ -453,3 +453,13 @@
   height: 50px;
   background-color: #ffff;
 }
+
+.up {
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+}
+.up > input {
+  background-color: #3ba5bd;
+  border: none;
+}

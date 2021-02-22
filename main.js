@@ -72,6 +72,9 @@ var app = new Vue({
    },
 
    methods: {
+     scrollWin:function() {
+        window.scrollTo(0,50);
+     }
    }
 
    // fine app
