@@ -50,11 +50,14 @@
   border: none;
 }
 .jumbotron .center {
-  width: 600px;
+  width: 700px;
   height: 200px;
   margin-left: 400px;
   color: #ffff;
   line-height: 25px;
+}
+.jumbotron .center > span {
+  font-size: 25px;
 }
 .jumbotron .center > h1 > span {
   color: #39afbb;
@@ -81,9 +84,15 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.container-first > h1 {
+  color: #7c858f;
+}
+.container-first > h1 > span {
+  color: #7c858f;
+}
 
 .container-second {
-  width: 800px;
+  width: 1200px;
   height: 270px;
   margin: 0 auto;
   display: flex;
@@ -91,29 +100,36 @@
   justify-content: space-around;
 }
 .container-second .item {
-  width: 24%;
+  width: 30%;
   text-align: center;
   padding: 5px;
-  color: #bcbcbd;
+  color: #7c858f;
   font-size: 20px;
+  line-height: 25px;
 }
 
 .container-third {
-  height: 300px;
+  height: 400px;
   background-color: #f1efef;
+}
+.container-third .horizzontal-rule {
+  width: 200px;
+  height: 1px;
+  border: 1px solid #7c858f;
+  margin: 0 auto;
 }
 .container-third-top {
   text-align: center;
   height: 200px;
   height: 300px;
   margin: 0 auto;
-  line-height: 30px;
+  line-height: 35px;
   font-size: 18px;
-  color: #bcbcbd;
+  color: #7c858f;
 }
 .container-third-top > h2 {
   margin-top: 20px;
-  color: #0f1d2d;
+  color: #7c858f;
 }
 
 .container-four {
@@ -132,12 +148,15 @@
 }
 .container-four .items > h4 {
   margin-left: 10px;
+  color: #7c858f;
 }
 .container-four .items > span {
   margin-left: 10px;
+  color: #7c858f;
 }
 .container-four .items > p {
   margin-left: 10px;
+  color: #7c858f;
 }
 .container-four .items > ul > li > a > i {
   margin-left: 10px;
@@ -153,8 +172,17 @@
   text-align: center;
   line-height: 25px;
 }
+.services .horizzontal-rule {
+  width: 200px;
+  height: 1px;
+  border: 1px solid #7c858f;
+  margin: 0 auto;
+}
+.services > h2 {
+  color: #7c858f;
+}
 .services > span {
-  color: #bcbcbd;
+  color: #7c858f;
 }
 
 .types {
@@ -173,7 +201,7 @@
   color: #bcbcbd;
 }
 .types .item > h4 {
-  color: #0f1d2d;
+  color: #7c858f;
 }
 
 .video {
@@ -184,6 +212,12 @@
   text-align: center;
   line-height: 25px;
   background-size: auto;
+}
+.video .horizzontal-rule-white {
+  width: 200px;
+  height: 1px;
+  border: 1px solid #ffff;
+  margin: 0 auto;
 }
 .video > img {
   margin-top: 40px;
@@ -268,6 +302,12 @@
   color: #ffff;
   line-height: 25px;
 }
+.text-container .horizzontal-rule-white {
+  width: 200px;
+  height: 1px;
+  border: 1px solid #ffff;
+  margin: 0 auto;
+}
 
 .form-container {
   width: 700px;
@@ -320,6 +360,7 @@
   height: 50px;
   background-color: #39afbb;
   color: white;
+  border: none;
 }
 
 .gradient {

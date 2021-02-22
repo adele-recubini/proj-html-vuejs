@@ -18,6 +18,21 @@
     color: white;
 }
 
+
+@mixin rule{
+    width: 200px;
+    height: 1px;
+    border:1px solid $color-lightgrey;
+    margin:0 auto;
+}
+@mixin rule-white {
+  width: 200px;
+  height: 1px;
+  border:1px solid $word;
+  margin:0 auto;
+
+}
+
 #app{
     font-family: 'Lato', sans-serif;
 }
@@ -81,11 +96,15 @@
 }
 
 .center{
-  width: 600px;
+  width: 700px;
   height: 200px;
   margin-left: 400px;
   color: $word;
   line-height: 25px;
+
+  &>span{
+    font-size: 25px;
+  }
 
   &>h1>span{
     color:$button;
@@ -119,42 +138,54 @@
   margin-top:50px;
   margin-bottom: 50px;
 
+  &>h1{
+    color:$color-lightgrey;
+  }
+
+  &>h1>span{
+    color:$color-lightgrey;
+  }
+
 }
 
 .container-second{
-  width: 800px;
+  width: 1200px;
   height: 270px;
   margin: 0 auto;
   @include flex;
 
   .item{
-    width: 24%;
+    width: 30%;
     text-align: center;
     padding: 5px;
-    color:$words;
+    color:$color-lightgrey;
     font-size: 20px;
+    line-height: 25px;
   }
 }
 
 .container-third{
-  height: 300px;
+  height: 400px;
   background-color:$bg-color;
 
 
-  &-top{
+  .horizzontal-rule{
+    @include rule;
+  }
 
+
+  &-top{
     text-align: center;
     height: 200px;
-
     height: 300px;
     margin: 0 auto;
-    line-height: 30px;
+    line-height: 35px;
     font-size: 18px;
-    color: $words
+    color: $color-lightgrey;
    }
   &-top>h2{
       margin-top: 20px;
-      color:$h4color;
+      color:$color-lightgrey
     }
 }
 // inizio container four
@@ -172,12 +203,15 @@
 
     &>h4{
       margin-left:$margin;
+      color: $color-lightgrey
     }
     &>span{
       margin-left:$margin;
+      color: $color-lightgrey
     }
     &>p{
     margin-left:$margin;
+    color: $color-lightgrey
     }
     &>ul>li>a>i{
       margin-left:$margin;
@@ -197,8 +231,16 @@
   text-align: center;
   line-height: 25px;
 
+  .horizzontal-rule{
+    @include rule;
+  }
+
+  &>h2{
+    color: $color-lightgrey;
+  }
+
   &>span{
-    color:$words;
+  color: $color-lightgrey;
   }
 }
 
@@ -221,7 +263,7 @@
       color:$words;
 
       &>h4{
-        color:$h4color;
+        color: $color-lightgrey;
       }
     }
 }
@@ -236,6 +278,10 @@
     text-align: center;
     line-height: 25px;
     background-size:auto;
+
+    .horizzontal-rule-white{
+      @include rule-white;
+    }
 
     &>img{
       margin-top: 40px;
@@ -333,11 +379,14 @@ background-color: $squaretwo;
 .text-container{
   width: 400px;
   height: 100px;
-
   margin:0 auto;
   text-align: center;
   color:$word;
   line-height: 25px;
+
+  .horizzontal-rule-white{
+    @include rule-white;
+  }
 }
 
 .form-container{
@@ -401,6 +450,7 @@ background-color: $squaretwo;
     height: 50px;
     background-color:$button;
     color: white;
+    border: none;
 
 
   }
