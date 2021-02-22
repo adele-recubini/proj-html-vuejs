@@ -17,6 +17,7 @@ var app = new Vue({
      servicesD:'img/icon-11.png',
      servicesE:'img/icon-12.png',
      servicesF:'img/icon-13.png',
+     rights: ['Copyright by Ado', ' Avada Theme By Theme Fusion', ' All Rights reserved', 'Power By Ado'],
 
 
      iconSocial:[

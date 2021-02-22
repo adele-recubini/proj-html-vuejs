@@ -454,12 +454,22 @@
   background-color: #ffff;
 }
 
-.up {
-  margin: 0 auto;
+.rights {
   height: 100px;
-  width: 100px;
+  background-color: #bcbcbd;
 }
-.up > input {
-  background-color: #3ba5bd;
+.rights > ul > li {
+  display: inline;
+  padding: 25px;
+  line-height: 100px;
+}
+.rights > ul > span {
+  float: right;
+  line-height: 100px;
+  margin-right: 50px;
+}
+.rights > ul > span > input {
+  width: 70px;
+  height: 30px;
   border: none;
 }

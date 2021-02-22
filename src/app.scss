@@ -581,13 +581,31 @@ background-color: $squaretwo;
 
 // fine footer
 
-.up{
-  margin:0 auto;
-  height: 100px;
-  width: 100px;
+// rights
 
-  &>input{
-    background-color:$squarethree;
-    border: $no-border
+.rights{
+  height: 100px;
+  background-color: $words;
+
+
+  &>ul>li{
+    display: inline;
+    padding:25px;
+    line-height: 100px;
+  }
+
+  &>ul>span{
+    float:right;
+    line-height: 100px;
+    margin-right: 50px;
+  }
+
+  &>ul>span>input{
+    width: 70px;
+    height: 30px;
+    border:$no-border;
+
   }
 }
+
+// fine rights
