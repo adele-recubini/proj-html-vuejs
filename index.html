@@ -5,7 +5,12 @@
     <title></title>
     <link rel="stylesheet" href="dist/app.css">
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
   </head>
   <body>
@@ -275,9 +280,6 @@
           <h5>LEARN MORE ABOUT US</h5>
           <ul>
             <li><i v-for="icon in iconSocial" :class="icon.group + ' ' + icon.prefix + icon.name" :style ="'color:' + icon.color" ></i>
-
-               <!-- :style="'color:'icon.color" -->
-              <!-- :style ="'color:' + colorF" -->
             </li>
           </ul>
         </div>
