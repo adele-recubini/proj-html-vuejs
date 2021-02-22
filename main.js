@@ -10,7 +10,7 @@ var app = new Vue({
      linkHeader:['HOME' , 'ABOUT', 'DEPARTMENTS', 'ARTICLES'],
      iconSocial:[
        {
-         name: "twitter-square",
+         name: "twitter",
          group: "fab",
          prefix: "fa-",
          color:'#46525f'
@@ -22,12 +22,20 @@ var app = new Vue({
          color:'#46525f'
        },
        {
-         name: "facebook-square",
+         name: "facebook",
          group: "fab",
          prefix: "fa-",
          color:'#46525f'
-       }
+       },
+       {
+         name: "instagram",
+         group: "fab",
+         prefix: "fa-",
+         color:'#46525f'
+       },
+
      ],
+
 
     iconPosition:[
        {
