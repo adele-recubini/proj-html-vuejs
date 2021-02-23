@@ -8,6 +8,10 @@ var app = new Vue({
      logo:'img/medical_logo_1x_light.png',
      logoLight:'img/medical_logo_1x_dark.png',
      linkHeader:['HOME' , 'ABOUT', 'DEPARTMENTS', 'ARTICLES'],
+     icona1:'img/icon-1.png',
+     icona2:'img/icon-2.png',
+     icona3:'img/icon-3.png',
+     icona4:'img/icon-4.png',
      doctorOne:'img/doctor-1.jpg',
      doctorTwo:'img/doctor-2.jpg',
      doctorThree:'img/doctor-3.jpg',
@@ -74,7 +78,7 @@ var app = new Vue({
 
    methods: {
      scrollWin:function() {
-        window.scrollTo(0,50);
+        window.scrollTo ({ top: 0, behavior: 'smooth' });
      }
    }
 
